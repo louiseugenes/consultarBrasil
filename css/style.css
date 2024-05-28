@@ -20,10 +20,8 @@ header h1 {
 }
 
 .buttons_header{
-    display: flex;
     margin: 0;
 }
-
 
 .container {
     text-align: center;
@@ -49,4 +47,32 @@ button {
 
 button:hover {
     background-color: #cccccc;
+}
+
+.container_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -100px;
+}
+
+.form-container {
+    max-width: 600px; 
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.col-md-4 {
+    padding: 0 15px;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
 }

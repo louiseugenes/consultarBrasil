@@ -19,6 +19,11 @@ header h1 {
     margin-left: 20px;
 }
 
+header img{
+    height: 100px;
+    width: 200px;
+}
+
 .buttons_header{
     margin: 0;
 }
